@@ -3,18 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.globant.ioncases.service;
-
-
-import edu.globant.ioncases.entity.Seller;
-
+package edu.globant.ioncases.model;
 
 /**
  *
- * @author fedec
+ * @author federico.calarco
  */
-public interface SellerService {
-    
-    void Seller(Seller seller);
+public class Inventory {
     
 }

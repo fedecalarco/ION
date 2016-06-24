@@ -7,7 +7,7 @@ package edu.globant.ioncases.service;
 
 import edu.globant.ioncases.dao.CustomerDao;
 import edu.globant.ioncases.dao.CustomerDaoImpl;
-import edu.globant.ioncases.entity.Customer;
+import edu.globant.ioncases.model.Customer;
 
 /**
  *

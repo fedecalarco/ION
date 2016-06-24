@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.globant.ioncases.entity;
+package edu.globant.ioncases.model;
 
 
 
@@ -14,12 +14,9 @@ package edu.globant.ioncases.entity;
  */
 public class DeliverySeller extends Seller{
 
-    public DeliverySeller(){
-        super("Undefined", "Delivery Seller");
-    }
  
-    public DeliverySeller(String fullname) {
-        super(fullname, "Delivery Seller");
+    public DeliverySeller(String fullname, Store store) {
+        super(store,fullname, "Delivery Seller");
     }
     
 

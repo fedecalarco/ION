@@ -5,7 +5,7 @@
  */
 package edu.globant.ioncases.dao;
 
-import edu.globant.ioncases.entity.Case;
+import edu.globant.ioncases.model.Case;
 import java.util.Map;
 
 /**

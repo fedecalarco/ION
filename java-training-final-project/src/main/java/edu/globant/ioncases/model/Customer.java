@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.globant.ioncases.entity;
-
-
+package edu.globant.ioncases.model;
 
 /**
  *
@@ -19,11 +17,9 @@ public class Customer {
     private char gender;
     private String location;
 
-    public Customer() {
-    }
-
-    public Customer(int id, String name, int age, char gender, String location) {
-        this.id = id;
+    
+    public Customer(String name, int age, char gender, String location) {
+        super();
         this.name = name;
         this.age = age;
         this.gender = gender;

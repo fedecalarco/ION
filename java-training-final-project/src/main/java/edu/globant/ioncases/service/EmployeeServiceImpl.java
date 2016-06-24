@@ -7,7 +7,7 @@ package edu.globant.ioncases.service;
 
 import edu.globant.ioncases.dao.EmployeeDao;
 import edu.globant.ioncases.dao.EmployeeDaoImpl;
-import edu.globant.ioncases.entity.Employee;
+import edu.globant.ioncases.model.Employee;
 
 /**
  *

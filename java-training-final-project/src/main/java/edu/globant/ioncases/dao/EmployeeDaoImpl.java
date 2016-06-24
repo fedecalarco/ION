@@ -5,7 +5,7 @@
  */
 package edu.globant.ioncases.dao;
 
-import edu.globant.ioncases.entity.Employee;
+import edu.globant.ioncases.model.Employee;
 import java.util.ArrayList;
 import java.util.List;
 

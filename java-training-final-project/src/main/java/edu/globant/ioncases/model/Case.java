@@ -3,44 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.globant.ioncases.entity;
+package edu.globant.ioncases.model;
 
 import java.util.HashSet;
 import java.util.Set;
 
 /**
  *
- * @author fedec
+ * @author federico.calarco
  */
 public class Case {
-
-    private int id;
-    Set<Device> compatibleDevices = new HashSet<Device>();
+    
     private String design;
+    private Set<Device> compatibleDevices = new HashSet<>();
     private double price;
-
-    public Case() {
-    }
+    private Set<Provider> providers = new HashSet<>();
 
     public Case(String design, double price) {
         this.design = design;
         this.price = price;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public Set<Device> getCompatibleDevices() {
-        return compatibleDevices;
-    }
-
-    public void setCompatibleDevices(Set<Device> compatibleDevices) {
-        this.compatibleDevices = compatibleDevices;
     }
 
     public String getDesign() {
@@ -51,6 +32,14 @@ public class Case {
         this.design = design;
     }
 
+    public Set<Device> getCompatibleDevices() {
+        return compatibleDevices;
+    }
+
+    public void setCompatibleDevices(Set<Device> compatibleDevices) {
+        this.compatibleDevices = compatibleDevices;
+    }
+
     public double getPrice() {
         return price;
     }
@@ -59,8 +48,20 @@ public class Case {
         this.price = price;
     }
 
-    public void addCompatibleDevice(Device device){
-        this.compatibleDevices.add(device);
+    public Set<Provider> getProvider() {
+        return providers;
+    }
+
+    public void setProvider(Set<Provider> provider) {
+        this.providers = provider;
+    }
+    
+    public void addCompatibleDevices(Device device){
+        compatibleDevices.add(device);
+    }
+    
+    public void addProvider(Provider provider){
+       providers.add(provider);
     }
     
 }

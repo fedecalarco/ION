@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.globant.ioncases.entity;
+package edu.globant.ioncases.model;
+
 
 
 
@@ -13,9 +14,22 @@ package edu.globant.ioncases.entity;
  */
 public abstract class Seller extends Employee{
 
-    public Seller(String fullname, String jobTitle) {
+    private Store store;
+
+    public Seller(Store store, String fullname, String jobTitle) {
         super(fullname, jobTitle);
+        this.store = store;
     }
+
+    public Store getStore() {
+        return store;
+    }
+
+    public void setStore(Store store) {
+        this.store = store;
+    }
+    
+
     
     
     

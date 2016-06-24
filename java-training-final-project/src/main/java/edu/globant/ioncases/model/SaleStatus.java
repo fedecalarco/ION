@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.globant.ioncases.entity;
+package edu.globant.ioncases.model;
+
 
 /**
  *
- * @author fedec
+ * @author federico.calarco
  */
-public class Order {
-    
+
+public enum SaleStatus {
+    DRAFT,PAID,CANCELLED,REFUND
 }

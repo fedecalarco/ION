@@ -3,31 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.globant.ioncases.entity;
-
-
-
+package edu.globant.ioncases.model;
 
 /**
  *
  * @author federico.calarco
  */
-public class Device {
+public abstract class Device {
     
-    private DeviceType deviceType; // CELLPHONE or TABLET
     private String model;
 
-    public Device(DeviceType deviceType, String model) {
-        this.deviceType = deviceType;
+    public Device(String model) {
         this.model = model;
-    }
-
-    public DeviceType getDeviceType() {
-        return deviceType;
-    }
-
-    public void setDeviceType(DeviceType deviceType) {
-        this.deviceType = deviceType;
     }
 
     public String getModel() {
@@ -37,7 +24,7 @@ public class Device {
     public void setModel(String model) {
         this.model = model;
     }
-
+    
     
     
 }

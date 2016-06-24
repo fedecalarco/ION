@@ -7,7 +7,8 @@ package edu.globant.ioncases.service;
 
 import edu.globant.ioncases.dao.InventoryDao;
 import edu.globant.ioncases.dao.InventoryDaoImpl;
-import edu.globant.ioncases.entity.Case;
+import edu.globant.ioncases.model.Case;
+
 import java.util.Map;
 
 

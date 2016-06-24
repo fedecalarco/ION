@@ -5,7 +5,8 @@
  */
 package edu.globant.ioncases.dao;
 
-import edu.globant.ioncases.entity.Customer;
+
+import edu.globant.ioncases.model.Customer;
 import java.util.List;
 
 /**

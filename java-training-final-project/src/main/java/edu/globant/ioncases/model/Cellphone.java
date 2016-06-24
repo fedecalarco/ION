@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.globant.ioncases.service;
-
-import edu.globant.ioncases.model.Case;
-
+package edu.globant.ioncases.model;
 
 /**
  *
- * @author fedec
+ * @author federico.calarco
  */
-public interface CaseService {
-    void newCase(Case caseCover);
+public class Cellphone extends Device{
+    
+    public Cellphone(String model) {
+        super(model);
+    }
+    
+
+    
 }

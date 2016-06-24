@@ -5,7 +5,7 @@
  */
 package edu.globant.ioncases.dao;
 
-import edu.globant.ioncases.entity.Sale;
+import edu.globant.ioncases.model.Sale;
 
 
 
